@@ -3,8 +3,12 @@
 <!-- 设置为IUserDao接口方法提供sql语句配置 -->
 <mapper namespace="com.xie.dao.IUserDao">
 
-    <select id="selectUser" resultType="User" parameterType="long">
-        SELECT * FROM user WHERE id = #{id}
+    <select id="selectUser" resultType="User" parameterType="String">
+        SELECT * FROM user WHERE name = #{user_name}
+    </select>
+
+    <select id="setToken">
+        UPDATE user SET token = #{token} WHERE id = #{id}
     </select>
 
 </mapper>
