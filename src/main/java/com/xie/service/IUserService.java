@@ -1,7 +1,7 @@
 package com.xie.service;
 
 
-import com.xie.model.User;
+import com.xie.model.db.User;
 
 public interface IUserService {
 

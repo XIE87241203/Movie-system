@@ -1,6 +1,8 @@
-package com.xie.model;
+package com.xie.model.db;
 
-public class User {
+import com.xie.model.db.BaseDBModel;
+
+public class User extends BaseDBModel {
     private int id;
     private String name;
     private String password;

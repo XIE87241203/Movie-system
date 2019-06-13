@@ -22,7 +22,7 @@ public class BaseApiController extends BaseController {
     }
 
     //检验多个字符串中，是否有为空的
-    public static ResultModel isEmpty(String...keys){
+    static ResultModel isEmpty(String... keys){
         if (!StringUtils.isEmpty(keys)){
             for (String key :keys) {
                 if (StringUtils.isEmpty(key)) {

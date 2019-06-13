@@ -2,7 +2,7 @@ package com.xie.controller.api;
 
 
 import com.xie.model.ResultModel;
-import com.xie.model.User;
+import com.xie.model.db.User;
 import com.xie.service.IUserService;
 import com.xie.tools.Tools;
 import org.springframework.stereotype.Controller;

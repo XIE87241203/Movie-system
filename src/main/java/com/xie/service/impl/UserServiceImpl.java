@@ -1,7 +1,7 @@
 package com.xie.service.impl;
 
 import com.xie.dao.IUserDao;
-import com.xie.model.User;
+import com.xie.model.db.User;
 import com.xie.service.IUserService;
 import org.springframework.stereotype.Service;
 

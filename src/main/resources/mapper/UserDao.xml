@@ -7,8 +7,8 @@
         SELECT * FROM user WHERE name = #{user_name}
     </select>
 
-    <select id="setToken">
+    <update id="setToken">
         UPDATE user SET token = #{token} WHERE id = #{id}
-    </select>
+    </update>
 
 </mapper>
