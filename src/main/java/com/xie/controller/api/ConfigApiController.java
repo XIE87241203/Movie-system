@@ -24,7 +24,7 @@ public class ConfigApiController extends BaseApiController {
         ResultModel resultModel;
         Config configModel = JSON.parseObject(config, Config.class);
         if (configService.setConfig(configModel) > 0) {
-            resultModel = getSuccessResult(getConfig());
+            resultModel = getConfig();
         } else {
             resultModel = getErrorResult("设置失败");
         }
