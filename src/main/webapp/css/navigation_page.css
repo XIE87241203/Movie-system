@@ -1,0 +1,41 @@
+.tab_red{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    background-color: #E53935;
+}
+.tab_red:hover{
+    background-color: #EF5350;
+}
+
+.tab_blue{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    background-color: #1E88E5;
+}
+.tab_blue:hover{
+    background-color: #42A5F5;
+}
+
+.tab_purple{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    background-color: #8E24AA;
+}
+.tab_purple:hover{
+    background-color: #AB47BC;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
